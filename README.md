@@ -69,46 +69,6 @@ Example report filename:
     system_report_2026-05-08_114022.txt
 
 
-Example Output
---------------
-
-System Health Report
-====================
-
-Generated At: 2026-05-08 11:40:22
-
-System Information
-------------------
-OS: Linux
-Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
-Machine: x86_64
-
-CPU Information
----------------
-CPU Model: AMD Ryzen 7 6800H with Radeon Graphics
-Logical CPUs: 16
-CPU Usage Snapshot: 0.0%
-Load Average 1/5/15 min: 0.01, 0.04, 0.05
-
-RAM Usage
----------
-Total RAM: 7.38 GB
-Used RAM: 1.61 GB
-Available RAM: 5.77 GB
-Usage: 21.8%
-
-GPU Information
----------------
-GPU 1: NVIDIA GeForce RTX 3050 Laptop GPU
-Temperature: 54 C
-GPU Load: 0%
-VRAM Used: 0.00 GB
-VRAM Total: 4.00 GB
-Fan Speed: Unavailable
-Power Draw: 3.62 W
-Power Limit: Unavailable
-
-
 Notes
 -----
 
