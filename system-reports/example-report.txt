@@ -1,0 +1,65 @@
+System Health Report
+====================
+
+Generated At: 2026-05-08 11:40:22
+
+System Information
+------------------
+OS: Linux
+Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+Machine: x86_64
+
+CPU Information
+---------------
+CPU Model: AMD Ryzen 7 6800H with Radeon Graphics
+Logical CPUs: 16
+CPU Usage Snapshot: 0.0%
+Load Average 1/5/15 min: 0.01, 0.04, 0.05
+
+Uptime
+------
+up 27 minutes
+
+Disk Usage
+----------
+Total: 1006.85 GB
+Used: 1.97 GB
+Free: 953.67 GB
+Usage: 0.2%
+
+RAM Usage
+---------
+Total RAM: 7.38 GB
+Used RAM: 1.61 GB
+Available RAM: 5.77 GB
+Usage: 21.8%
+
+GPU Information
+---------------
+GPU 1: NVIDIA GeForce RTX 3050 Laptop GPU
+Temperature: 54 C
+GPU Load: 0%
+VRAM Used: 0.00 GB
+VRAM Total: 4.00 GB
+Fan Speed: Unavailable
+Power Draw: 3.62 W
+Power Limit: Unavailable
+
+Temperature and Fan Sensors
+---------------------------
+Sensor data unavailable: sensors command was not found.
+In native Linux this usually comes from lm-sensors.
+In WSL, CPU temperature and fan speed are often not exposed.
+
+IP Configuration
+----------------
+172.XX.XX.XX
+
+Top Processes by Memory
+-----------------------
+PID USER     %CPU %MEM COMMAND
+   3186 USER   2.8  9.6 node
+   1756 USER   2.9  3.0 node
+   1690 USER   1.9  1.7 node
+   1866 USER   0.2  1.0 node
+   1730 USER   0.0  0.8 node

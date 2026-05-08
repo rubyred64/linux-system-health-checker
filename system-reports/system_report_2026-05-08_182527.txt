@@ -1,0 +1,59 @@
+System Health Report
+====================
+
+Generated At: 2026-05-08 18:25:27
+
+System Information
+------------------
+OS: Linux
+Platform: Linux-6.8.0-1044-azure-x86_64-with-glibc2.39
+Machine: x86_64
+
+CPU Information
+---------------
+CPU Model: AMD EPYC 7763 64-Core Processor
+Logical CPUs: 2
+CPU Usage Snapshot: 30.8%
+Load Average 1/5/15 min: 1.79, 3.04, 1.77
+
+Uptime
+------
+up 40 minutes
+
+Disk Usage
+----------
+Total: 31.33 GB
+Used: 9.60 GB
+Free: 20.11 GB
+Usage: 30.6%
+
+RAM Usage
+---------
+Total RAM: 7.76 GB
+Used RAM: 1.65 GB
+Available RAM: 6.11 GB
+Usage: 21.2%
+
+GPU Information
+---------------
+NVIDIA GPU data unavailable: nvidia-smi was not found.
+If this machine has an NVIDIA GPU, install/configure NVIDIA driver support for WSL.
+
+Temperature and Fan Sensors
+---------------------------
+Sensor data unavailable: sensors command was not found.
+In native Linux this usually comes from lm-sensors.
+In WSL, CPU temperature and fan speed are often not exposed.
+
+IP Configuration
+----------------
+10.0.2.146 172.17.0.1
+
+Top Processes by Memory
+-----------------------
+PID USER     %CPU %MEM COMMAND
+   1976 codespa+  4.7  4.3 node
+   1917 codespa+  1.7  1.4 node
+    257 root      0.2  1.2 dockerd
+   2480 codespa+  0.3  0.8 node
+   3336 codespa+  0.1  0.7 node

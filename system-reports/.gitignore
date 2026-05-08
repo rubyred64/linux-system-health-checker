@@ -1,0 +1,3 @@
+system-reports/system_report_*.txt
+__pycache__/
+*.pyc
