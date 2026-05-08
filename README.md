@@ -46,13 +46,12 @@ No external Python packages are required.
 Project Structure
 -----------------
 
-health-tracker/
-├── health_check.py
-├── README.md
-└── system-reports/
-    └── system_report_YYYY-MM-DD_HHMMSS.txt
-
-
+    health-tracker/
+    ├── health_check.py
+    ├── README.md
+    ├── .gitignore
+    └── system-reports/
+        └── example_report.txt
 Usage
 -----
 
