@@ -45,7 +45,7 @@
     "message": "Sensor data unavailable: sensors command was not found. In WSL, CPU temperature and fan speed are often not exposed."
   },
   "network": {
-    "ip_addresses": "10.0.2.54 172.17.0.1"
+    "ip_addresses": "What you lookin at"
   },
   "top_processes": {
     "raw_output": "PID USER     %CPU %MEM COMMAND\n   3373 codespa+  2.6  4.5 node\n    363 codespa+  0.8  2.0 node\n     58 root      0.0  1.1 dockerd\n   1105 codespa+  0.1  0.8 node\n   8297 codespa+  0.0  0.7 node"
