@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-05-11 19:03:27",
+  "thresholds": {
+    "disk_warning_percent": 80.0,
+    "ram_warning_percent": 85.0,
+    "gpu_temp_warning_c": 80.0
+  },
+  "system": {
+    "os": "Linux",
+    "platform": "Linux-6.8.0-1044-azure-x86_64-with-glibc2.39",
+    "machine": "x86_64"
+  },
+  "cpu": {
+    "model": "AMD EPYC 7763 64-Core Processor",
+    "logical_cpus": 2,
+    "usage_percent": 25.3,
+    "load_average": {
+      "one_minute": 0.08,
+      "five_minutes": 0.54,
+      "fifteen_minutes": 0.91
+    }
+  },
+  "uptime": {
+    "uptime": "up 2 hours, 33 minutes"
+  },
+  "disk": {
+    "total_gb": 31.33,
+    "used_gb": 9.6,
+    "free_gb": 20.11,
+    "usage_percent": 30.6
+  },
+  "ram": {
+    "available": true,
+    "total_gb": 7.76,
+    "used_gb": 2.0,
+    "available_gb": 5.76,
+    "usage_percent": 25.8
+  },
+  "gpu": {
+    "available": false,
+    "message": "NVIDIA GPU data unavailable: nvidia-smi was not found."
+  },
+  "sensors": {
+    "available": false,
+    "message": "Sensor data unavailable: sensors command was not found. In WSL, CPU temperature and fan speed are often not exposed."
+  },
+  "network": {
+    "ip_addresses": "10.0.2.54 172.17.0.1"
+  },
+  "top_processes": {
+    "raw_output": "PID USER     %CPU %MEM COMMAND\n   3373 codespa+  2.6  4.5 node\n    363 codespa+  0.8  2.0 node\n     58 root      0.0  1.1 dockerd\n   1105 codespa+  0.1  0.8 node\n   8297 codespa+  0.0  0.7 node"
+  }
+}
